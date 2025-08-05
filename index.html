@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Agenda de Pacientes</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Agenda de Pacientes</h1>
+        <div class="form-container">
+            <input type="text" id="patientName" placeholder="Nombre del Paciente" required>
+            <input type="datetime-local" id="appointmentDate" required>
+            <button id="addAppointment">Agregar Cita</button>
+        </div>
+        <div class="appointments">
+            <h2>Citas Programadas</h2>
+            <ul id="appointmentList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
